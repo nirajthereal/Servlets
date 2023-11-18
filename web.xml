@@ -1,0 +1,146 @@
+<web-app>
+    <context-param>
+		<param-name>driver</param-name>
+		<param-value>com.mysql.jdbc.Driver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>connect</param-name>
+		<param-value>jdbc:mysql:///11ambatch</param-value>
+	</context-param>
+	<context-param>
+		<param-name>user</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	<context-param>
+		<param-name>pwd</param-name>
+		<param-value>abcd</param-value>
+	</context-param>
+          <servlet>
+	             <servlet-name>fs</servlet-name>
+			 <servlet-class>pack.FirstServlet</servlet-class>
+	    </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>fs</servlet-name>
+		     <url-pattern>/abc</url-pattern>
+		</servlet-mapping>
+
+        <servlet>
+	    <servlet-name>fs1</servlet-name>
+	    <servlet-class>pack.FirstServlet01</servlet-class>
+	  </servlet>
+	    <servlet-mapping>
+	      <servlet-name>fs1</servlet-name>
+		<url-pattern>/xyz</url-pattern>
+	   </servlet-mapping>
+   
+           <servlet>
+	             <servlet-name>fs2</servlet-name>
+			 <servlet-class>pack.HelloWorld</servlet-class>
+	    </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>fs2</servlet-name>
+		     <url-pattern>/chiku</url-pattern>
+		</servlet-mapping>
+
+
+           <servlet>
+	                <servlet-name>ns</servlet-name>
+			 <servlet-class>pack.inbox</servlet-class>
+                        <init-param>
+			<param-name>address</param-name>
+			<param-value>SoftSynth Software Solution Pvt Ltd</param-value>
+		        </init-param>
+		        <init-param>
+			<param-name>mobile</param-name>
+			<param-value>0129-4154215</param-value>
+		        </init-param>
+	    </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>ns</servlet-name>
+		     <url-pattern>/kk</url-pattern>
+		</servlet-mapping>
+
+
+              <servlet>
+	             <servlet-name>dss</servlet-name>
+	             <servlet-class>pack.Dna</servlet-class>
+	      </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>dss</servlet-name>
+		     <url-pattern>/gig</url-pattern>
+		</servlet-mapping>
+        
+
+             <servlet>
+	             <servlet-name>jdfo</servlet-name>
+	             <servlet-class>pack.Formjdbc</servlet-class>
+	      </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>jdfo</servlet-name>
+		     <url-pattern>/show</url-pattern>
+		</servlet-mapping>
+              <servlet>
+	             <servlet-name>nw</servlet-name>
+	             <servlet-class>pack.newuser</servlet-class>
+	      </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>nw</servlet-name>
+		     <url-pattern>/qw</url-pattern>
+		</servlet-mapping>
+          
+          
+           <servlet>
+	             <servlet-name>mday</servlet-name>
+	             <servlet-class>pack.prc</servlet-class>
+	      </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>mday</servlet-name>
+		     <url-pattern>/xb</url-pattern>
+		</servlet-mapping>
+		<servlet>
+	             <servlet-name>wday</servlet-name>
+	             <servlet-class>pack.prc01</servlet-class>
+	      </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>wday</servlet-name>
+		     <url-pattern>/zb</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+	             <servlet-name>tday</servlet-name>
+	             <servlet-class>pack.galigalisimsim</servlet-class>
+	      </servlet>
+		
+		
+		<servlet-mapping>
+		     <servlet-name>tday</servlet-name>
+		     <url-pattern>/qqq</url-pattern>
+		</servlet-mapping>
+		
+		
+		
+          
+          
+
+     
+
+
+        
+         
+</web-app>
